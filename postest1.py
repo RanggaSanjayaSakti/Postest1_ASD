@@ -41,12 +41,12 @@ while True: #digunakan untuk melakukan perulangan
 |2. Untuk Shellsort|
 ====================
 """)
-    a = input("Masukan Sorting Yang Ingin Digunakan: ") #digunakan untuk menyimpan inputan sorting yang akan digunakan
-    if a == "1": #jika memilih "1" maka akan menjalankan function quick sort
+    pilih = input("Masukan Sorting Yang Ingin Digunakan: ") #digunakan untuk menyimpan inputan sorting yang akan digunakan
+    if pilih == "1": #jika memilih "1" maka akan menjalankan function quick sort
         print(f"list sebelum disort: {angka}")
         print(f"list setelah disort: {quickSort(angka)}")
         break #berfungsi sebagai memberhentikan perulangan ketika program sudah selesai dijalankan
-    elif a == "2": #jika memilih "2" maka akan menjalankan functionon shell sort
+    elif pilih == "2": #jika memilih "2" maka akan menjalankan functionon shell sort
         print(f"list sebelum disort: {angka}")
         print(f"list setelah disort: {shellSort(angka)}")
         break
